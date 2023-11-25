@@ -1,5 +1,8 @@
+import sys
 import warnings
-warnings.simplefilter('always')
+
+sys.setrecursionlimit(2147483647)
+warnings.simplefilter("always")
 
 states = []
 input_symbols = []
@@ -13,7 +16,7 @@ transitions = dict()
 def check(state: str, remaining_input: list, stack_contents: list) -> bool:    
     if not remaining_input and (state in accepting_states or not stack_contents):
         return True
-
+    
     if remaining_input:
         # If the transition is not spontaneous.
         popped_input_symbol = remaining_input.pop()
@@ -21,55 +24,40 @@ def check(state: str, remaining_input: list, stack_contents: list) -> bool:
             popped_stack_element = stack_contents.pop()
             for possibility in transitions[state][popped_stack_element][popped_input_symbol]:
                 p, l = possibility
-                if l[0] == 'e':
-                    found = check(p, remaining_input, stack_contents)
-                    
-                    if found:
-                        remaining_input.append(popped_input_symbol)
-                        stack_contents.append(popped_stack_element)
-                        return True
-                else:
-                    for symbol in l:
-                        stack_contents.append(symbol)
-                    
-                    found = check(p, remaining_input, stack_contents)
-                    for symbol in l:
-                        stack_contents.pop()
-                    
-                    if found:
-                        remaining_input.append(popped_input_symbol)
-                        stack_contents.append(popped_stack_element)
-                        return True
+                replaced_symbols = [] if l[0] == 'e' else l
+
+                for symbol in replaced_symbols:
+                    stack_contents.append(symbol)
+                
+                found = check(p, remaining_input, stack_contents)
+                if found:
+                    return True
+                
+                for symbol in replaced_symbols:
+                    stack_contents.pop()
                     
             stack_contents.append(popped_stack_element)
         
         remaining_input.append(popped_input_symbol)
-
 
     # If the transition is spontaneous.
     if state in transitions and stack_contents[-1] in transitions[state] and 'e' in transitions[state][stack_contents[-1]]:
         popped_stack_element = stack_contents.pop()
         for possibility in transitions[state][popped_stack_element]['e']:
             p, l = possibility
-            if l[0] == 'e':
-                found = check(p, remaining_input, stack_contents)
-                
-                if found:
-                    stack_contents.append(popped_stack_element)
-                    return True
-            else:
-                for symbol in l:
-                    stack_contents.append(symbol)
-                found = check(p, remaining_input, stack_contents)
-                for symbol in l:
-                    stack_contents.pop()
-                
-                if found:
-                    stack_contents.append(popped_stack_element)
-                    return True
+            replaced_symbols = [] if l[0] == 'e' else l
+            
+            for symbol in replaced_symbols:
+                stack_contents.append(symbol)
+            
+            found = check(p, remaining_input, stack_contents)
+            if found:
+                return True
+            
+            for symbol in replaced_symbols:
+                stack_contents.pop()
                 
         stack_contents.append(popped_stack_element)
-
     return False
             
 
@@ -124,7 +112,7 @@ def read_pda(pda_location: str):
             transitions[q][X][a].append((p, l))
 
 if __name__ == "__main__":
-    pda_location = input("Enter the file location: ")
+    pda_location = sys.argv[1]
     read_pda(pda_location)
     print("PDA loaded!")
 
@@ -138,21 +126,22 @@ if __name__ == "__main__":
     # print("Transitions", end=' ')
     # pprint.pprint(transitions)
 
-    while True:
-        file_location = input("Enter the file location: ") 
-        with open(file_location) as file:
-            inputs = file.readlines()
-        
-        # get_token asumsi 1 huruf 1 token
-        inputs = [list(x.strip()) for x in inputs]
-        for i in range(len(inputs)):
-            inputs[i].reverse()
-        
-        for string in inputs:
-            result = check(start_state, string, [start_symbol])
 
-            string = ''.join(string)
-            if result:
-                print(f"\"{string}\" is accepted.")
-            else:
-                print(f"\"{string}\" is not accepted.")
+    file_location = sys.argv[2]
+    with open(file_location) as file:
+        inputs = file.readlines()
+    
+    # get_token asumsi 1 huruf 1 token
+    inputs = [list(x.strip()) for x in inputs]
+    for i in range(len(inputs)):
+        inputs[i].reverse()
+    
+    for string in inputs:
+        result = check(start_state, string.copy(), [start_symbol])
+
+        string = ''.join(string)
+        string = string[::-1]
+        if result:
+            print(f"\"{string}\" is accepted.")
+        else:
+            print(f"\"{string}\" is not accepted.")
