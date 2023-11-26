@@ -50,6 +50,11 @@ def parse_no_attributes(file_location: str) -> list[str]:
                 tokens.append(''.join(tag))
             
             c = file.read(1)
+    new_tokens = []
+    for i in tokens:
+        if i[:4] != "<!--":
+            new_tokens.append(i)
+    tokens = new_tokens
     return tokens
 
 
@@ -138,5 +143,5 @@ def parse_attributes(file_location: str) -> list[str]:
 
 
 
-# tokens = parse_no_attributes('test/1.html')
-# print(tokens)
+tokens = parse_no_attributes('test/1.html')
+print(tokens)
