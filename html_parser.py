@@ -97,7 +97,10 @@ def parse_attributes(file_location: str) -> list[str]:
                 clean_tag.append('>')
                 tokens.append(''.join(clean_tag))
 
-                attributes = dict(re.findall(r'(\S+)=["\']?((?:.(?!["\']?\s+(?:\S+)=|[>"\']))+.)["\']?', tag_string))
+                # attributes = dict(re.findall(r'(\S+)=["\']?((?:.(?!["\']?\s+(?:\S+)=|[>"\']))+.)["\']?', tag_string))
+                # attributes = dict(re.findall(r'(\w+)\s*=\s*["\']?(.*?)["\']?\s*', tag_string))
+                # r'(\w+)="([^"]*)"'
+                attributes = dict(re.findall(r'(\w+)="([^"]*)"', tag_string))
                 for attribute, value in attributes.items():
                     tokens.append(attribute)
                     if attribute == 'id':
@@ -138,5 +141,5 @@ def parse_attributes(file_location: str) -> list[str]:
 
 
 
-# tokens = parse_no_attributes('test/1.html')
+# tokens = parse_attributes('test/test.html')
 # print(tokens)

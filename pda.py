@@ -15,7 +15,7 @@ accepting_states = set()
 transitions = dict()
 
 
-def check(state: str, remaining_input: list, stack_contents: list) -> bool:    
+def check(state: str, remaining_input: list, stack_contents: list) -> bool:
     if not remaining_input and (state in accepting_states or not stack_contents):
         return True
     
@@ -173,8 +173,10 @@ if __name__ == "__main__":
     read_pda_ignore_comments_and_newline(pda_location)
 
     file_location = sys.argv[2]
-    tokens = html_parser.parse_no_attributes(file_location)
+    tokens = html_parser.parse_attributes(file_location)
+    # print(tokens)
     tokens.reverse()
+    # print(tokens)
 
     result = check(start_state, tokens, [start_symbol])
     if result:

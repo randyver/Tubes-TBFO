@@ -1,0 +1,419 @@
+initial html_tag head_tag body_tag title_tag link_tag script_tag h1_tag h2_tag h3_tag h4_tag h5_tag h6_tag p_tag br_tag em_tag b_tag abbr_tag strong_tag small_tag hr_tag div_tag a_tag img_tag button_tag form_tag input_tag table_tag tr_tag td_tag th_tag
+INIT id ID_VAL class CLASS_VAL style STYLE_VAL alt ALT_VAl href HREF_VAL action ACTION_VAL rel REL_VAL src SRC_VAL type method <html> <head> <body> <title> <link> <script> <h1> <h2> <h3> <h4> <h5> <h6> <p> <em> <b> <abbr> <strong> <small> <div> <a> <button> <form> <table> <tr> <td> <th>
+Z0 rel src type method
+initial
+Z0
+initial
+
+# <html>
+
+initial <html> Z0 html_tag Z0
+html_tag style Z0 html_tag Z0
+html_tag STYLE_VAL Z0 html_tag Z0
+html_tag id Z0 html_tag Z0
+html_tag ID_VAL Z0 html_tag Z0
+html_tag class Z0 html_tag Z0
+html_tag CLASS_VAL Z0 html_tag Z0
+html_tag INIT Z0 initial Z0
+
+# <head>
+
+initial <head> Z0 head_tag Z0
+head_tag style Z0 head_tag Z0
+head_tag STYLE_VAL Z0 head_tag Z0
+head_tag id Z0 head_tag Z0
+head_tag ID_VAL Z0 head_tag Z0
+head_tag class Z0 head_tag Z0
+head_tag CLASS_VAL Z0 head_tag Z0
+head_tag INIT Z0 initial Z0
+
+# <body>
+
+initial <body> Z0 body_tag Z0
+body_tag style Z0 body_tag Z0
+body_tag STYLE_VAL Z0 body_tag Z0
+body_tag id Z0 body_tag Z0
+body_tag ID_VAL Z0 body_tag Z0
+body_tag class Z0 body_tag Z0
+body_tag CLASS_VAL Z0 body_tag Z0
+body_tag INIT Z0 initial Z0
+
+# <title>
+
+initial <title> Z0 title_tag Z0
+title_tag style Z0 title_tag Z0
+title_tag STYLE_VAL Z0 title_tag Z0
+title_tag id Z0 title_tag Z0
+title_tag ID_VAL Z0 title_tag Z0
+title_tag class Z0 title_tag Z0
+title_tag CLASS_VAL Z0 title_tag Z0
+title_tag INIT Z0 initial Z0
+
+# <link>
+
+initial <link> Z0 link_tag rel Z0
+link_tag INIT Z0 initial Z0
+
+link_tag style Z0 link_tag Z0
+link_tag STYLE_VAL Z0 link_tag Z0
+link_tag id Z0 link_tag Z0
+link_tag ID_VAL Z0 link_tag Z0
+link_tag class Z0 link_tag Z0
+link_tag CLASS_VAL Z0 link_tag Z0
+
+
+link_tag style rel link_tag rel
+link_tag STYLE_VAL rel link_tag rel
+link_tag id rel link_tag rel
+link_tag ID_VAL rel link_tag rel
+link_tag class rel link_tag rel
+link_tag CLASS_VAL rel link_tag rel
+
+
+link_tag rel rel link_tag e
+link_tag REL_VAL Z0 link_tag Z0
+
+# <script>
+
+initial <script> Z0 script_tag Z0
+script_tag style Z0 script_tag Z0
+script_tag STYLE_VAL Z0 script_tag Z0
+script_tag id Z0 script_tag Z0
+script_tag ID_VAL Z0 script_tag Z0
+script_tag class Z0 script_tag Z0
+script_tag CLASS_VAL Z0 script_tag Z0
+script_tag INIT Z0 initial Z0
+
+# <h1>
+
+initial <h1> Z0 h1_tag Z0
+h1_tag style Z0 h1_tag Z0
+h1_tag STYLE_VAL Z0 h1_tag Z0
+h1_tag id Z0 h1_tag Z0
+h1_tag ID_VAL Z0 h1_tag Z0
+h1_tag class Z0 h1_tag Z0
+h1_tag CLASS_VAL Z0 h1_tag Z0
+h1_tag INIT Z0 initial Z0
+
+# <h2>
+
+initial <h2> Z0 h2_tag Z0
+h2_tag style Z0 h2_tag Z0
+h2_tag STYLE_VAL Z0 h2_tag Z0
+h2_tag id Z0 h2_tag Z0
+h2_tag ID_VAL Z0 h2_tag Z0
+h2_tag class Z0 h2_tag Z0
+h2_tag CLASS_VAL Z0 h2_tag Z0
+h2_tag INIT Z0 initial Z0
+
+# <h3>
+
+initial <h3> Z0 h3_tag Z0
+h3_tag style Z0 h3_tag Z0
+h3_tag STYLE_VAL Z0 h3_tag Z0
+h3_tag id Z0 h3_tag Z0
+h3_tag ID_VAL Z0 h3_tag Z0
+h3_tag class Z0 h3_tag Z0
+h3_tag CLASS_VAL Z0 h3_tag Z0
+h3_tag INIT Z0 initial Z0
+
+# <h4>
+
+initial <h4> Z0 h4_tag Z0
+h4_tag style Z0 h4_tag Z0
+h4_tag STYLE_VAL Z0 h4_tag Z0
+h4_tag id Z0 h4_tag Z0
+h4_tag ID_VAL Z0 h4_tag Z0
+h4_tag class Z0 h4_tag Z0
+h4_tag CLASS_VAL Z0 h4_tag Z0
+h4_tag INIT Z0 initial Z0
+
+# <h5>
+
+initial <h5> Z0 h5_tag Z0
+h5_tag style Z0 h5_tag Z0
+h5_tag STYLE_VAL Z0 h5_tag Z0
+h5_tag id Z0 h5_tag Z0
+h5_tag ID_VAL Z0 h5_tag Z0
+h5_tag class Z0 h5_tag Z0
+h5_tag CLASS_VAL Z0 h5_tag Z0
+h5_tag INIT Z0 initial Z0
+
+# <h6>
+
+initial <h6> Z0 h6_tag Z0
+h6_tag style Z0 h6_tag Z0
+h6_tag STYLE_VAL Z0 h6_tag Z0
+h6_tag id Z0 h6_tag Z0
+h6_tag ID_VAL Z0 h6_tag Z0
+h6_tag class Z0 h6_tag Z0
+h6_tag CLASS_VAL Z0 h6_tag Z0
+h6_tag INIT Z0 initial Z0
+
+# <p>
+
+initial <p> Z0 p_tag Z0
+p_tag style Z0 p_tag Z0
+p_tag STYLE_VAL Z0 p_tag Z0
+p_tag id Z0 p_tag Z0
+p_tag ID_VAL Z0 p_tag Z0
+p_tag class Z0 p_tag Z0
+p_tag CLASS_VAL Z0 p_tag Z0
+p_tag INIT Z0 initial Z0
+
+# <br>
+
+initial <br> Z0 br_tag Z0
+br_tag style Z0 br_tag Z0
+br_tag STYLE_VAL Z0 br_tag Z0
+br_tag id Z0 br_tag Z0
+br_tag ID_VAL Z0 br_tag Z0
+br_tag class Z0 br_tag Z0
+br_tag CLASS_VAL Z0 br_tag Z0
+br_tag INIT Z0 initial Z0
+
+
+# <em>
+
+initial <em> Z0 em_tag Z0
+em_tag style Z0 em_tag Z0
+em_tag STYLE_VAL Z0 em_tag Z0
+em_tag id Z0 em_tag Z0
+em_tag ID_VAL Z0 em_tag Z0
+em_tag class Z0 em_tag Z0
+em_tag CLASS_VAL Z0 em_tag Z0
+em_tag INIT Z0 initial Z0
+
+
+# <b>
+
+initial <b> Z0 b_tag Z0
+b_tag style Z0 b_tag Z0
+b_tag STYLE_VAL Z0 b_tag Z0
+b_tag id Z0 b_tag Z0
+b_tag ID_VAL Z0 b_tag Z0
+b_tag class Z0 b_tag Z0
+b_tag CLASS_VAL Z0 b_tag Z0
+b_tag INIT Z0 initial Z0
+
+# <abbr>
+
+initial <abbr> Z0 abbr_tag Z0
+abbr_tag style Z0 abbr_tag Z0
+abbr_tag STYLE_VAL Z0 abbr_tag Z0
+abbr_tag id Z0 abbr_tag Z0
+abbr_tag ID_VAL Z0 abbr_tag Z0
+abbr_tag class Z0 abbr_tag Z0
+abbr_tag CLASS_VAL Z0 abbr_tag Z0
+abbr_tag INIT Z0 initial Z0
+
+# <strong>
+
+initial <strong> Z0 strong_tag Z0
+strong_tag style Z0 strong_tag Z0
+strong_tag STYLE_VAL Z0 strong_tag Z0
+strong_tag id Z0 strong_tag Z0
+strong_tag ID_VAL Z0 strong_tag Z0
+strong_tag class Z0 strong_tag Z0
+strong_tag CLASS_VAL Z0 strong_tag Z0
+strong_tag INIT Z0 initial Z0
+
+# <small>
+
+initial <small> Z0 small_tag Z0
+small_tag style Z0 small_tag Z0
+small_tag STYLE_VAL Z0 small_tag Z0
+small_tag id Z0 small_tag Z0
+small_tag ID_VAL Z0 small_tag Z0
+small_tag class Z0 small_tag Z0
+small_tag CLASS_VAL Z0 small_tag Z0
+small_tag INIT Z0 initial Z0
+
+# <hr>
+
+initial <hr> Z0 hr_tag Z0
+hr_tag style Z0 hr_tag Z0
+hr_tag STYLE_VAL Z0 hr_tag Z0
+hr_tag id Z0 hr_tag Z0
+hr_tag ID_VAL Z0 hr_tag Z0
+hr_tag class Z0 hr_tag Z0
+hr_tag CLASS_VAL Z0 hr_tag Z0
+hr_tag INIT Z0 initial Z0
+
+
+# <div>
+
+initial <div> Z0 div_tag Z0
+div_tag style Z0 div_tag Z0
+div_tag STYLE_VAL Z0 div_tag Z0
+div_tag id Z0 div_tag Z0
+div_tag ID_VAL Z0 div_tag Z0
+div_tag class Z0 div_tag Z0
+div_tag CLASS_VAL Z0 div_tag Z0
+div_tag INIT Z0 initial Z0
+
+# <a>
+
+initial <a> Z0 a_tag Z0
+a_tag style Z0 a_tag Z0
+a_tag STYLE_VAL Z0 a_tag Z0
+a_tag id Z0 a_tag Z0
+a_tag ID_VAL Z0 a_tag Z0
+a_tag class Z0 a_tag Z0
+a_tag CLASS_VAL Z0 a_tag Z0
+a_tag INIT Z0 initial Z0
+
+# <img>
+
+initial <img> Z0 img_tag src Z0
+img_tag INIT Z0 initial Z0
+
+img_tag style Z0 img_tag Z0
+img_tag STYLE_VAL Z0 img_tag Z0
+img_tag id Z0 img_tag Z0
+img_tag ID_VAL Z0 img_tag Z0
+img_tag class Z0 img_tag Z0
+img_tag CLASS_VAL Z0 img_tag Z0
+
+
+img_tag style src img_tag src
+img_tag STYLE_VAL src img_tag src
+img_tag id src img_tag src
+img_tag ID_VAL src img_tag src
+img_tag class src img_tag src
+img_tag CLASS_VAL src img_tag src
+
+img_tag src src img_tag e
+img_tag SRC_VAL Z0 img_tag Z0
+
+img_tag alt Z0 img_tag Z0
+img_tag ALT_VAL Z0 img_tag Z0
+img_tag alt src img_tag src
+img_tag ALT_VAL src img_tag src
+
+
+# <button>
+
+initial <button> Z0 button_tag type Z0
+button_tag INIT Z0 initial Z0
+
+button_tag style Z0 button_tag Z0
+button_tag STYLE_VAL Z0 button_tag Z0
+button_tag id Z0 button_tag Z0
+button_tag ID_VAL Z0 button_tag Z0
+button_tag class Z0 button_tag Z0
+button_tag CLASS_VAL Z0 button_tag Z0
+
+
+button_tag style type button_tag type
+button_tag STYLE_VAL type button_tag type
+button_tag id type button_tag type
+button_tag ID_VAL type button_tag type
+button_tag class type button_tag type
+button_tag CLASS_VAL type button_tag type
+
+button_tag type type button_tag type
+button_tag submit type button_tag Z0
+button_tag reset type button_tag Z0
+button_tag button type button_tag Z0
+
+# <form>
+
+initial <form> Z0 form_tag method Z0
+form_tag INIT Z0 initial Z0
+
+form_tag style Z0 form_tag Z0
+form_tag STYLE_VAL Z0 form_tag Z0
+form_tag id Z0 form_tag Z0
+form_tag ID_VAL Z0 form_tag Z0
+form_tag class Z0 form_tag Z0
+form_tag CLASS_VAL Z0 form_tag Z0
+
+form_tag style method form_tag method
+form_tag STYLE_VAL method form_tag method
+form_tag id method form_tag method
+form_tag ID_VAL method form_tag method
+form_tag class method form_tag method
+form_tag CLASS_VAL method form_tag method
+
+form_tag method method form_tag method
+form_tag get method form_tag Z0
+form_tag post method form_tag Z0
+
+form_tag action Z0 form_tag Z0
+form_tag ACTION_VAL Z0 form_tag Z0
+form_tag action method form_tag method
+form_tag ACTION_VAL method form_tag method
+
+# <input>
+
+
+initial <input> Z0 input_tag type Z0
+input_tag INIT Z0 initial Z0
+
+input_tag style Z0 input_tag Z0
+input_tag STYLE_VAL Z0 input_tag Z0
+input_tag id Z0 input_tag Z0
+input_tag ID_VAL Z0 input_tag Z0
+input_tag class Z0 input_tag Z0
+input_tag CLASS_VAL Z0 input_tag Z0
+
+
+input_tag style type input_tag type
+input_tag STYLE_VAL type input_tag type
+input_tag id type input_tag type
+input_tag ID_VAL type input_tag type
+input_tag class type input_tag type
+input_tag CLASS_VAL type input_tag type
+
+input_tag type type input_tag type
+input_tag text type input_tag Z0
+input_tag password type input_tag Z0
+input_tag email type input_tag Z0
+input_tag number type input_tag Z0
+input_tag checkbox type input_tag Z0
+
+
+# <table>
+
+initial <table> Z0 table_tag Z0
+table_tag style Z0 table_tag Z0
+table_tag STYLE_VAL Z0 table_tag Z0
+table_tag id Z0 table_tag Z0
+table_tag ID_VAL Z0 table_tag Z0
+table_tag class Z0 table_tag Z0
+table_tag CLASS_VAL Z0 table_tag Z0
+table_tag INIT Z0 initial Z0
+
+# <tr>
+
+initial <tr> Z0 tr_tag Z0
+tr_tag style Z0 tr_tag Z0
+tr_tag STYLE_VAL Z0 tr_tag Z0
+tr_tag id Z0 tr_tag Z0
+tr_tag ID_VAL Z0 tr_tag Z0
+tr_tag class Z0 tr_tag Z0
+tr_tag CLASS_VAL Z0 tr_tag Z0
+tr_tag INIT Z0 initial Z0
+
+# <td>
+
+initial <td> Z0 td_tag Z0
+td_tag style Z0 td_tag Z0
+td_tag STYLE_VAL Z0 td_tag Z0
+td_tag id Z0 td_tag Z0
+td_tag ID_VAL Z0 td_tag Z0
+td_tag class Z0 td_tag Z0
+td_tag CLASS_VAL Z0 td_tag Z0
+td_tag INIT Z0 initial Z0
+
+# <th>
+
+initial <th> Z0 th_tag Z0
+th_tag style Z0 th_tag Z0
+th_tag STYLE_VAL Z0 th_tag Z0
+th_tag id Z0 th_tag Z0
+th_tag ID_VAL Z0 th_tag Z0
+th_tag class Z0 th_tag Z0
+th_tag CLASS_VAL Z0 th_tag Z0
+th_tag INIT Z0 initial Z0
