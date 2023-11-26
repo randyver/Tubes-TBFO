@@ -1,0 +1,490 @@
+not_read html_opening head_opening script_opening title_opening link_opening head_closing body_opening form_opening p_opening hn_opening a_opening button_opening table_opening tr_opening td_opening th_opening p_opening_form hn_opening_form a_opening_form button_opening_form table_opening_form tr_opening_form td_opening_form th_opening_form input_tag body_closing html_closing
+<html> </html> <head> </head> <body> </body> <title> </title> <link> <script> </script> <h1> </h1> <h2> </h2> <h3> </h3> <h4> </h4> <h5> </h5> <h6> </h6> <p> </p> <br> <em> </em> <b> </b> <abbr> </abbr> <strong> </strong> <small> </small> <hr> <div> </div> <a> </a> <img> <button> </button> <form> </form> <input> <table> </table> <tr> </tr> <td> </td> <th> </th>
+Z0 <html> <head> <body> <title> <link> <script> <h1> <h2> <h3> <h4> <h5> <h6> <p> <em> <b> <abbr> <strong> <small> <div> <a> <button> <form> <table> <tr> <td> <th>
+not_read
+Z0
+html_closing
+
+# <html>, <head>, <title>,<link>, <script>, <img>, <div>, <hr>
+
+not_read <html> Z0 html_opening <html> Z0
+
+html_opening <head> <html> head_opening <head> <html>
+
+head_opening <title> <head> title_opening <title> <head>
+title_opening TEXT <title> title_opening <title>
+title_opening </title> <title> head_opening e
+
+head_opening <link> <head> link_opening <head>
+link_opening e <head> head_opening <head>
+
+head_opening <script> <head> script_opening <script> <head>
+script_opening </script> <script> head_opening e
+
+head_opening </head> <head> head_closing e
+
+head_closing <body> <html> body_opening <body> <html>
+
+body_opening <div> <div> body_opening <div> <div>
+body_opening <div> <body> body_opening <div> <body>
+body_opening </div> <div> body_opening e
+body_opening <hr> <body> body_opening <body>
+body_opening <hr> <div> body_opening <div>
+body_opening <img> <body> body_opening <body>
+body_opening <img> <div> body_opening <div>
+
+# <p>
+
+body_opening <p> <body> p_opening <p> <body>
+body_opening <p> <div> p_opening <p> <div>
+p_opening TEXT <p> p_opening <p>
+p_opening <br> <p> p_opening <p>
+p_opening <em> <p> p_opening <em> <p>
+p_opening </em> <em> p_opening e
+p_opening <b> <p> p_opening <b> <p>
+p_opening </b> <b> p_opening e
+p_opening <abbr> <p> p_opening <abbr> <p>
+p_opening </abbr> <abbr> p_opening e
+p_opening <strong> <p> p_opening <strong> <p>
+p_opening </strong> <strong> p_opening e
+p_opening <small> <p> p_opening <small> <p>
+p_opening </small> <small> p_opening e
+p_opening TEXT <em> p_opening <em>
+p_opening TEXT <b> p_opening <b>
+p_opening TEXT <abbr> p_opening <abbr>
+p_opening TEXT <strong> p_opening <strong>
+p_opening TEXT <small> p_opening <small>
+p_opening </p> <p> body_opening e
+
+
+# <hn>
+
+body_opening <h1> <body> h1_opening <h1> <body>
+body_opening <h1> <div> h1_opening <h1> <div>
+h1_opening TEXT <h1> h1_opening <h1>
+h1_opening <br> <h1> h1_opening <h1>
+h1_opening <em> <h1> h1_opening <em> <h1>
+h1_opening </em> <em> h1_opening e
+h1_opening <b> <h1> h1_opening <b> <h1>
+h1_opening </b> <b> h1_opening e
+h1_opening <abbr> <h1> h1_opening <abbr> <h1>
+h1_opening </abbr> <abbr> h1_opening e
+h1_opening <strong> <h1> h1_opening <strong> <h1>
+h1_opening </strong> <strong> h1_opening e
+h1_opening <small> <h1> h1_opening <small> <h1>
+h1_opening </small> <small> h1_opening e
+h1_opening TEXT <em> h1_opening <em>
+h1_opening TEXT <b> h1_opening <b>
+h1_opening TEXT <abbr> h1_opening <abbr>
+h1_opening TEXT <strong> h1_opening <strong>
+h1_opening TEXT <small> h1_opening <small>
+h1_opening </h1> <h1> body_opening e
+
+body_opening <h2> <body> h2_opening <h2> <body>
+body_opening <h2> <div> h2_opening <h2> <div>
+h2_opening TEXT <h2> h2_opening <h2>
+h2_opening <br> <h2> h2_opening <h2>
+h2_opening <em> <h2> h2_opening <em> <h2>
+h2_opening </em> <em> h2_opening e
+h2_opening <b> <h2> h2_opening <b> <h2>
+h2_opening </b> <b> h2_opening e
+h2_opening <abbr> <h2> h2_opening <abbr> <h2>
+h2_opening </abbr> <abbr> h2_opening e
+h2_opening <strong> <h2> h2_opening <strong> <h2>
+h2_opening </strong> <strong> h2_opening e
+h2_opening <small> <h2> h2_opening <small> <h2>
+h2_opening </small> <small> h2_opening e
+h2_opening TEXT <em> h2_opening <em>
+h2_opening TEXT <b> h2_opening <b>
+h2_opening TEXT <abbr> h2_opening <abbr>
+h2_opening TEXT <strong> h2_opening <strong>
+h2_opening TEXT <small> h2_opening <small>
+h2_opening </h2> <h2> body_opening e
+
+body_opening <h3> <body> h3_opening <h3> <body>
+body_opening <h3> <div> h3_opening <h3> <div>
+h3_opening TEXT <h3> h3_opening <h3>
+h3_opening <br> <h3> h3_opening <h3>
+h3_opening <em> <h3> h3_opening <em> <h3>
+h3_opening </em> <em> h3_opening e
+h3_opening <b> <h3> h3_opening <b> <h3>
+h3_opening </b> <b> h3_opening e
+h3_opening <abbr> <h3> h3_opening <abbr> <h3>
+h3_opening </abbr> <abbr> h3_opening e
+h3_opening <strong> <h3> h3_opening <strong> <h3>
+h3_opening </strong> <strong> h3_opening e
+h3_opening <small> <h3> h3_opening <small> <h3>
+h3_opening </small> <small> h3_opening e
+h3_opening TEXT <em> h3_opening <em>
+h3_opening TEXT <b> h3_opening <b>
+h3_opening TEXT <abbr> h3_opening <abbr>
+h3_opening TEXT <strong> h3_opening <strong>
+h3_opening TEXT <small> h3_opening <small>
+h3_opening </h3> <h3> body_opening e
+
+body_opening <h4> <body> h4_opening <h4> <body>
+body_opening <h4> <div> h4_opening <h4> <div>
+h4_opening TEXT <h4> h4_opening <h4>
+h4_opening <br> <h4> h4_opening <h4>
+h4_opening <em> <h4> h4_opening <em> <h4>
+h4_opening </em> <em> h4_opening e
+h4_opening <b> <h4> h4_opening <b> <h4>
+h4_opening </b> <b> h4_opening e
+h4_opening <abbr> <h4> h4_opening <abbr> <h4>
+h4_opening </abbr> <abbr> h4_opening e
+h4_opening <strong> <h4> h4_opening <strong> <h4>
+h4_opening </strong> <strong> h4_opening e
+h4_opening <small> <h4> h4_opening <small> <h4>
+h4_opening </small> <small> h4_opening e
+h4_opening TEXT <em> h4_opening <em>
+h4_opening TEXT <b> h4_opening <b>
+h4_opening TEXT <abbr> h4_opening <abbr>
+h4_opening TEXT <strong> h4_opening <strong>
+h4_opening TEXT <small> h4_opening <small>
+h4_opening </h4> <h4> body_opening e
+
+body_opening <h5> <body> h5_opening <h5> <body>
+body_opening <h5> <div> h5_opening <h5> <div>
+h5_opening TEXT <h5> h5_opening <h5>
+h5_opening <br> <h5> h5_opening <h5>
+h5_opening <em> <h5> h5_opening <em> <h5>
+h5_opening </em> <em> h5_opening e
+h5_opening <b> <h5> h5_opening <b> <h5>
+h5_opening </b> <b> h5_opening e
+h5_opening <abbr> <h5> h5_opening <abbr> <h5>
+h5_opening </abbr> <abbr> h5_opening e
+h5_opening <strong> <h5> h5_opening <strong> <h5>
+h5_opening </strong> <strong> h5_opening e
+h5_opening <small> <h5> h5_opening <small> <h5>
+h5_opening </small> <small> h5_opening e
+h5_opening TEXT <em> h5_opening <em>
+h5_opening TEXT <b> h5_opening <b>
+h5_opening TEXT <abbr> h5_opening <abbr>
+h5_opening TEXT <strong> h5_opening <strong>
+h5_opening TEXT <small> h5_opening <small>
+h5_opening </h5> <h5> body_opening e
+
+body_opening <h6> <body> h6_opening <h6> <body>
+body_opening <h6> <div> h6_opening <h6> <div>
+h6_opening TEXT <h6> h6_opening <h6>
+h6_opening <br> <h6> h6_opening <h6>
+h6_opening <em> <h6> h6_opening <em> <h6>
+h6_opening </em> <em> h6_opening e
+h6_opening <b> <h6> h6_opening <b> <h6>
+h6_opening </b> <b> h6_opening e
+h6_opening <abbr> <h6> h6_opening <abbr> <h6>
+h6_opening </abbr> <abbr> h6_opening e
+h6_opening <strong> <h6> h6_opening <strong> <h6>
+h6_opening </strong> <strong> h6_opening e
+h6_opening <small> <h6> h6_opening <small> <h6>
+h6_opening </small> <small> h6_opening e
+h6_opening TEXT <em> h6_opening <em>
+h6_opening TEXT <b> h6_opening <b>
+h6_opening TEXT <abbr> h6_opening <abbr>
+h6_opening TEXT <strong> h6_opening <strong>
+h6_opening TEXT <small> h6_opening <small>
+h6_opening </h6> <h6> body_opening e
+
+# <a>
+
+body_opening <a> <body> a_opening <a> <body>
+body_opening <a> <div> a_opening <a> <div>
+a_opening TEXT <a> a_opening <a>
+a_opening <br> <a> a_opening <a>
+a_opening <em> <a> a_opening <em> <a>
+a_opening </em> <em> a_opening e
+a_opening <b> <a> a_opening <b> <a>
+a_opening </b> <b> a_opening e
+a_opening <abbr> <a> a_opening <abbr> <a>
+a_opening </abbr> <abbr> a_opening e
+a_opening <strong> <a> a_opening <strong> <a>
+a_opening </strong> <strong> a_opening e
+a_opening <small> <a> a_opening <small> <a>
+a_opening </small> <small> a_opening e
+a_opening TEXT <em> a_opening <em>
+a_opening TEXT <b> a_opening <b>
+a_opening TEXT <abbr> a_opening <abbr>
+a_opening TEXT <strong> a_opening <strong>
+a_opening TEXT <small> a_opening <small>
+a_opening </a> <a> body_opening e
+
+# <button>
+
+body_opening <button> <body> button_opening <button> <body>
+body_opening <button> <div> button_opening <button> <div>
+button_opening TEXT <button> button_opening <button>
+button_opening <br> <button> button_opening <button>
+button_opening <em> <button> button_opening <em> <button>
+button_opening </em> <em> button_opening e
+button_opening <b> <button> button_opening <b> <button>
+button_opening </b> <b> button_opening e
+button_opening <abbr> <button> button_opening <abbr> <button>
+button_opening </abbr> <abbr> button_opening e
+button_opening <strong> <button> button_opening <strong> <button>
+button_opening </strong> <strong> button_opening e
+button_opening <small> <button> button_opening <small> <button>
+button_opening </small> <small> button_opening e
+button_opening TEXT <em> button_opening <em>
+button_opening TEXT <b> button_opening <b>
+button_opening TEXT <abbr> button_opening <abbr>
+button_opening TEXT <strong> button_opening <strong>
+button_opening TEXT <small> button_opening <small>
+button_opening </button> <button> body_opening e
+
+# <table> (Randy)
+
+body_opening <table> <body> table_opening <table> <body>
+body_opening <table> <div> table_opening <table> <div>
+table_opening </table> <table> body_opening e
+
+table_opening <tr> <table> tr_opening <tr> <table>
+tr_opening </tr> <tr> table_opening e
+
+tr_opening <td> <tr> td_opening <td> <tr>
+td_opening </td> <td> tr_opening e
+td_opening TEXT <td> td_opening <td>
+
+tr_opening <th> <tr> th_opening <th> <tr>
+th_opening </th> <th> tr_opening e
+th_opening TEXT <th> th_opening <th>
+
+# <form>
+
+body_opening <form> <body> form_opening <form> <body>
+body_opening <form> <div> form_opening <form> <div>
+form_opening </form> <form> body_opening e
+
+# <form> basic children
+
+input_tag e <form> form_opening <form>
+input_tag e <div> form_opening <div>
+
+form_opening <div> <div> form_opening <div> <div>
+form_opening <input> <form> form_opening <form>
+form_opening <input> <div> form_opening <div>
+form_opening <div> <form> form_opening <div> <form>
+form_opening </div> <div> form_opening e
+form_opening <hr> <form> form_opening <form>
+form_opening <hr> <div> form_opening <div>
+form_opening <img> <form> form_opening <form>
+form_opening <img> <div> form_opening <div>
+
+
+# <table> inside <form>
+
+form_opening <table> <form> table_opening_form <table> <form>
+form_opening <table> <div> table_opening_form <table> <div>
+table_opening_form </table> <table> form_opening e
+
+table_opening_form <tr> <table> tr_opening_form <tr> <table>
+tr_opening_form </tr> <tr> table_opening_form e
+
+tr_opening_form <td> <tr> td_opening_form <td> <tr>
+td_opening_form </td> <td> tr_opening_form e
+td_opening_form TEXT <td> td_opening_form <td>
+
+tr_opening_form <th> <tr> th_opening_form <th> <tr>
+th_opening_form </th> <th> tr_opening_form e
+th_opening_form TEXT <th> th_opening_form <th>
+
+
+# <p> in <form>
+
+form_opening <p> <form> p_opening_form <p> <form>
+form_opening <p> <div> p_opening_form <p> <div>
+p_opening_form TEXT <p> p_opening_form <p>
+p_opening_form <br> <p> p_opening_form <p>
+p_opening_form <em> <p> p_opening_form <em> <p>
+p_opening_form </em> <em> p_opening_form e
+p_opening_form <b> <p> p_opening_form <b> <p>
+p_opening_form </b> <b> p_opening_form e
+p_opening_form <abbr> <p> p_opening_form <abbr> <p>
+p_opening_form </abbr> <abbr> p_opening_form e
+p_opening_form <strong> <p> p_opening_form <strong> <p>
+p_opening_form </strong> <strong> p_opening_form e
+p_opening_form <small> <p> p_opening_form <small> <p>
+p_opening_form </small> <small> p_opening_form e
+p_opening_form TEXT <em> p_opening_form <em>
+p_opening_form TEXT <b> p_opening_form <b>
+p_opening_form TEXT <abbr> p_opening_form <abbr>
+p_opening_form TEXT <strong> p_opening_form <strong>
+p_opening_form TEXT <small> p_opening_form <small>
+p_opening_form </p> <p> form_opening e
+
+# <hn> in <form>
+
+form_opening <h1> <form> h1_opening_form <h1> <form>
+form_opening <h1> <div> h1_opening_form <h1> <div>
+h1_opening_form TEXT <h1> h1_opening_form <h1>
+h1_opening_form <br> <h1> h1_opening_form <h1>
+h1_opening_form <em> <h1> h1_opening_form <em> <h1>
+h1_opening_form </em> <em> h1_opening_form e
+h1_opening_form <b> <h1> h1_opening_form <b> <h1>
+h1_opening_form </b> <b> h1_opening_form e                                                 	
+h1_opening_form <abbr> <h1> h1_opening_form <abbr> <h1>
+h1_opening_form </abbr> <abbr> h1_opening_form e
+h1_opening_form <strong> <h1> h1_opening_form <strong> <h1>
+h1_opening_form </strong> <strong> h1_opening_form e
+h1_opening_form <small> <h1> h1_opening_form <small> <h1>
+h1_opening_form </small> <small> h1_opening_form e
+h1_opening_form TEXT <em> h1_opening_form <em>
+h1_opening_form TEXT <b> h1_opening_form <b>
+h1_opening_form TEXT <abbr> h1_opening_form <abbr>
+h1_opening_form TEXT <strong> h1_opening_form <strong>
+h1_opening_form TEXT <small> h1_opening_form <small>
+h1_opening_form </h1> <h1> form_opening e
+
+form_opening <h2> <form> h2_opening_form <h2> <form>
+form_opening <h2> <div> h2_opening_form <h2> <div>
+h2_opening_form TEXT <h2> h2_opening_form <h2>
+h2_opening_form <br> <h2> h2_opening_form <h2>
+h2_opening_form <em> <h2> h2_opening_form <em> <h2>
+h2_opening_form </em> <em> h2_opening_form e
+h2_opening_form <b> <h2> h2_opening_form <b> <h2>
+h2_opening_form </b> <b> h2_opening_form e                                                 	
+h2_opening_form <abbr> <h2> h2_opening_form <abbr> <h2>
+h2_opening_form </abbr> <abbr> h2_opening_form e
+h2_opening_form <strong> <h2> h2_opening_form <strong> <h2>
+h2_opening_form </strong> <strong> h2_opening_form e
+h2_opening_form <small> <h2> h2_opening_form <small> <h2>
+h2_opening_form </small> <small> h2_opening_form e
+h2_opening_form TEXT <em> h2_opening_form <em>
+h2_opening_form TEXT <b> h2_opening_form <b>
+h2_opening_form TEXT <abbr> h2_opening_form <abbr>
+h2_opening_form TEXT <strong> h2_opening_form <strong>
+h2_opening_form TEXT <small> h2_opening_form <small>
+h2_opening_form </h2> <h2> form_opening e
+
+form_opening <h3> <form> h3_opening_form <h3> <form>
+form_opening <h3> <div> h3_opening_form <h3> <div>
+h3_opening_form TEXT <h3> h3_opening_form <h3>
+h3_opening_form <br> <h3> h3_opening_form <h3>
+h3_opening_form <em> <h3> h3_opening_form <em> <h3>
+h3_opening_form </em> <em> h3_opening_form e
+h3_opening_form <b> <h3> h3_opening_form <b> <h3>
+h3_opening_form </b> <b> h3_opening_form e                                                 	
+h3_opening_form <abbr> <h3> h3_opening_form <abbr> <h3>
+h3_opening_form </abbr> <abbr> h3_opening_form e
+h3_opening_form <strong> <h3> h3_opening_form <strong> <h3>
+h3_opening_form </strong> <strong> h3_opening_form e
+h3_opening_form <small> <h3> h3_opening_form <small> <h3>
+h3_opening_form </small> <small> h3_opening_form e
+h3_opening_form TEXT <em> h3_opening_form <em>
+h3_opening_form TEXT <b> h3_opening_form <b>
+h3_opening_form TEXT <abbr> h3_opening_form <abbr>
+h3_opening_form TEXT <strong> h3_opening_form <strong>
+h3_opening_form TEXT <small> h3_opening_form <small>
+h3_opening_form </h3> <h3> form_opening e
+
+form_opening <h4> <form> h4_opening_form <h4> <form>
+form_opening <h4> <div> h4_opening_form <h4> <div>
+h4_opening_form TEXT <h4> h4_opening_form <h4>
+h4_opening_form <br> <h4> h4_opening_form <h4>
+h4_opening_form <em> <h4> h4_opening_form <em> <h4>
+h4_opening_form </em> <em> h4_opening_form e
+h4_opening_form <b> <h4> h4_opening_form <b> <h4>
+h4_opening_form </b> <b> h4_opening_form e                                                 	
+h4_opening_form <abbr> <h4> h4_opening_form <abbr> <h4>
+h4_opening_form </abbr> <abbr> h4_opening_form e
+h4_opening_form <strong> <h4> h4_opening_form <strong> <h4>
+h4_opening_form </strong> <strong> h4_opening_form e
+h4_opening_form <small> <h4> h4_opening_form <small> <h4>
+h4_opening_form </small> <small> h4_opening_form e
+h4_opening_form TEXT <em> h4_opening_form <em>
+h4_opening_form TEXT <b> h4_opening_form <b>
+h4_opening_form TEXT <abbr> h4_opening_form <abbr>
+h4_opening_form TEXT <strong> h4_opening_form <strong>
+h4_opening_form TEXT <small> h4_opening_form <small>
+h4_opening_form </h4> <h4> form_opening e
+
+form_opening <h5> <form> h5_opening_form <h5> <form>
+form_opening <h5> <div> h5_opening_form <h5> <div>
+h5_opening_form TEXT <h5> h5_opening_form <h5>
+h5_opening_form <br> <h5> h5_opening_form <h5>
+h5_opening_form <em> <h5> h5_opening_form <em> <h5>
+h5_opening_form </em> <em> h5_opening_form e
+h5_opening_form <b> <h5> h5_opening_form <b> <h5>
+h5_opening_form </b> <b> h5_opening_form e                                                 	
+h5_opening_form <abbr> <h5> h5_opening_form <abbr> <h5>
+h5_opening_form </abbr> <abbr> h5_opening_form e
+h5_opening_form <strong> <h5> h5_opening_form <strong> <h5>
+h5_opening_form </strong> <strong> h5_opening_form e
+h5_opening_form <small> <h5> h5_opening_form <small> <h5>
+h5_opening_form </small> <small> h5_opening_form e
+h5_opening_form TEXT <em> h5_opening_form <em>
+h5_opening_form TEXT <b> h5_opening_form <b>
+h5_opening_form TEXT <abbr> h5_opening_form <abbr>
+h5_opening_form TEXT <strong> h5_opening_form <strong>
+h5_opening_form TEXT <small> h5_opening_form <small>
+h5_opening_form </h5> <h5> form_opening e
+
+form_opening <h6> <form> h6_opening_form <h6> <form>
+form_opening <h6> <div> h6_opening_form <h6> <div>
+h6_opening_form TEXT <h6> h6_opening_form <h6>
+h6_opening_form <br> <h6> h6_opening_form <h6>
+h6_opening_form <em> <h6> h6_opening_form <em> <h6>
+h6_opening_form </em> <em> h6_opening_form e
+h6_opening_form <b> <h6> h6_opening_form <b> <h6>
+h6_opening_form </b> <b> h6_opening_form e                                                 	
+h6_opening_form <abbr> <h6> h6_opening_form <abbr> <h6>
+h6_opening_form </abbr> <abbr> h6_opening_form e
+h6_opening_form <strong> <h6> h6_opening_form <strong> <h6>
+h6_opening_form </strong> <strong> h6_opening_form e
+h6_opening_form <small> <h6> h6_opening_form <small> <h6>
+h6_opening_form </small> <small> h6_opening_form e
+h6_opening_form TEXT <em> h6_opening_form <em>
+h6_opening_form TEXT <b> h6_opening_form <b>
+h6_opening_form TEXT <abbr> h6_opening_form <abbr>
+h6_opening_form TEXT <strong> h6_opening_form <strong>
+h6_opening_form TEXT <small> h6_opening_form <small>
+h6_opening_form </h6> <h6> form_opening e
+
+# <a> in <form>
+
+form_opening <a> <form> a_opening_form <a> <form>
+form_opening <a> <div> a_opening_form <a> <div>
+a_opening_form TEXT <a> a_opening_form <a>
+a_opening_form <br> <a> a_opening_form <a>
+a_opening_form <em> <a> a_opening_form <em> <a>
+a_opening_form </em> <em> a_opening_form e
+a_opening_form <b> <a> a_opening_form <b> <a>
+a_opening_form </b> <b> a_opening_form e
+a_opening_form <abbr> <a> a_opening_form <abbr> <a>
+a_opening_form </abbr> <abbr> a_opening_form e
+a_opening_form <strong> <a> a_opening_form <strong> <a>
+a_opening_form </strong> <strong> a_opening_form e
+a_opening_form <small> <a> a_opening_form <small> <a>
+a_opening_form </small> <small> a_opening_form e
+a_opening_form TEXT <em> a_opening_form <em>
+a_opening_form TEXT <b> a_opening_form <b>
+a_opening_form TEXT <abbr> a_opening_form <abbr>
+a_opening_form TEXT <strong> a_opening_form <strong>
+a_opening_form TEXT <small> a_opening_form <small>
+a_opening_form </a> <a> form_opening e
+
+# <button> in <form>
+
+form_opening <button> <form> button_opening_form <button> <form>
+form_opening <button> <div> button_opening_form <button> <div>
+button_opening_form TEXT <button> button_opening_form <button>
+button_opening_form <br> <button> button_opening_form <button>
+button_opening_form <em> <button> button_opening_form <em> <button>
+button_opening_form </em> <em> button_opening_form e
+button_opening_form <b> <button> button_opening_form <b> <button>
+button_opening_form </b> <b> button_opening_form e
+button_opening_form <abbr> <button> button_opening_form <abbr> <button>
+button_opening_form </abbr> <abbr> button_opening_form e
+button_opening_form <strong> <button> button_opening_form <strong> <button>
+button_opening_form </strong> <strong> button_opening_form e
+button_opening_form <small> <button> button_opening_form <small> <button>
+button_opening_form </small> <small> button_opening_form e
+button_opening_form TEXT <em> button_opening_form <em>
+button_opening_form TEXT <b> button_opening_form <b>
+button_opening_form TEXT <abbr> button_opening_form <abbr>
+button_opening_form TEXT <strong> button_opening_form <strong>
+button_opening_form TEXT <small> button_opening_form <small>
+button_opening_form </button> <button> form_opening e
+
+# Closing html 
+body_opening </body> <body> body_closing e
+body_closing </html> <html> html_closing e

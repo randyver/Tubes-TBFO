@@ -138,5 +138,5 @@ def parse_attributes(file_location: str) -> list[str]:
 
 
 
-tokens = parse_attributes('test/1.html')
-print(tokens)
+# tokens = parse_no_attributes('test/1.html')
+# print(tokens)
