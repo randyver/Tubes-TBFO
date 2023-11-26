@@ -189,7 +189,7 @@ if __name__ == "__main__":
     read_pda_ignore_comments_and_newline(pda_location)
 
     file_location = sys.argv[3]
-    tokens = html_parser.parse_attributes(file_location)
+    tokens = html_parser.parse_no_attributes(file_location)
     tokens.reverse()
     check_2 = check(start_state, tokens, [start_symbol])
 
