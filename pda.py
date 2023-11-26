@@ -172,14 +172,28 @@ if __name__ == "__main__":
     pda_location = sys.argv[1]
     read_pda_ignore_comments_and_newline(pda_location)
 
-    file_location = sys.argv[2]
+    file_location = sys.argv[3]
     tokens = html_parser.parse_attributes(file_location)
-    # print(tokens)
     tokens.reverse()
-    # print(tokens)
+    check_1 = check(start_state, tokens, [start_symbol])
 
-    result = check(start_state, tokens, [start_symbol])
-    if result:
+    states = []
+    input_symbols = []
+    stack_alphabet = []
+    start_state = ""
+    start_symbol = ""
+    accepting_states = set()
+    transitions = dict()
+
+    pda_location = sys.argv[2]
+    read_pda_ignore_comments_and_newline(pda_location)
+
+    file_location = sys.argv[3]
+    tokens = html_parser.parse_attributes(file_location)
+    tokens.reverse()
+    check_2 = check(start_state, tokens, [start_symbol])
+
+    if check_1 and check_2:
         print("Accepted")
     else:
         print("Not accepted")
